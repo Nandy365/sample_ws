@@ -1,0 +1,83 @@
+
+.logo {
+    width:5em;
+    height:5em;
+}
+.vid1{
+    height: 20%;
+}
+.vid2{
+    height:20%;
+}
+.vid3{
+    height: 20%;
+}
+.uruslogo{
+    counter-reset: "";
+}
+.urus{
+    font-family: "Tourney";
+}
+.urus1{
+    text-align: "";
+}
+.urus2{
+    clip-path: polygon(48% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.urus3{
+    clip-path: polygon(23% 0, 100% 0%,76% 90%,0 89%);
+}
+.urus4{
+    clip-path: polygon(24% 0, 100% 0%, 100% 90%, 0 89%);
+}
+.urus5{
+    clip-path: polygon(0 0, 100% 0%, 70% 84%,0 84%);
+
+}
+.urusfont{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:30rem;
+}
+.urusmodels{
+    text-align: "";
+}
+.urus video{
+    text-align: "";
+}
+.countach video{
+    text-align: "";
+}
+.countach1{
+    text-align: "";
+}
+.text1{
+    position: relative;
+    bottom:90%;
+    left: 40%;
+    font-family:"Tourney";
+}
+.lambo01{
+ text-align: "";
+}
+.lambo{
+    clip-path: polygon(0 0, 100% 0%,62% 88%, 0 87%);
+}
+.lambo1{
+    clip-path: polygon(44% 0, 100% 0%, 100% 85%, 0 85%);
+}
+.lambo2{
+    clip-path: polygon(0 14%, 100% 14%, 61% 100%, 0% 100%);
+}
+.lambo3{
+    clip-path: polygon(29% 21%, 100% 21%, 72% 100%, 0% 100%);
+}
+.lambo6{
+    clip-path: polygon(0 0, 100% 0%, 68% 77%, 0 77%);
+
+}
+.countachvid2{
+   text-align: "";
+}
+.countach video{
+  text-align: "";
+}
