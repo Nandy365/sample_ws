@@ -1,83 +1,461 @@
-
-.logo {
-    width:5em;
-    height:5em;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Tourney:ital,wght@0,544;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Smooch+Sans:wght@500&family=Tourney:ital,wght@0,544;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@500&family=Smooch+Sans:wght@500&family=Tourney:ital,wght@0,544;1,600&family=Voces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kdam+Thmor+Pro&family=Nova+Square&family=Poppins:wght@500&family=Smooch+Sans:wght@500&family=Tourney:ital,wght@0,544;1,600&family=Voces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Domine:wght@500&family=Kdam+Thmor+Pro&family=Nova+Square&family=Poppins:wght@500&family=Smooch+Sans:wght@500&family=Tourney:ital,wght@0,544;1,600&family=Voces&display=swap');
+.uruslogo {
+    width: 10px;
+    height: 10px;
 }
-.vid1{
-    height: 20%;
+.menuitem{
+    background-color: #000000;
 }
-.vid2{
-    height:20%;
+#lambonavbar{
+    background-color: #000000;
 }
-.vid3{
-    height: 20%;
+td{
+    font-family: 'Kdam Thmor Pro', sans-serif;;
+    font-size: 1em;
+    font-weight: 500;
 }
-.uruslogo{
-    counter-reset: "";
+th{
+    font-family:'Domine', serif;;
 }
-.urus{
+.um1{
+    font-family:"Tourney";
+    color: aliceblue;
+    text-shadow: 1px 1px 2px#ea00ff,0 0 0.2em #c300ff;
+}
+.um2{
+    font-family:"Tourney";
+    color: aliceblue;
+    text-shadow: 1px 1px 2px#00ccff,0 0 0.2em #00ccff;
+}
+.cm1{
+    font-family: "Tourney";
+    color: aliceblue;
+    text-shadow: 1px 1px 2px#ea00ff,0 0 0.2em #c300ff;
+}
+.cm2{
+    font-family: "Tourney";
+    color: aliceblue;
+    text-shadow: 1px 1px 2px#00ccff,0 0 0.2em #00ccff;
+}
+.lm1{
+    font-family: "Tourney";
+    color: aliceblue;
+    text-shadow: 1px 1px 2px#ea00ff,0 0 0.2em #c300ff;
+}
+.lm2{
+    font-family: "Tourney";
+    color: aliceblue;
+    text-shadow: 1px 1px 2px#00ccff,0 0 0.2em #00ccff;
+}
+.hm1{
+    font-family: "Tourney";
+    color: aliceblue;
+    text-shadow: 1px 1px 2px#ea00ff,0 0 0.2em #c300ff;
+}
+.hm2{
+    font-family: "Tourney";
+    color: aliceblue;
+    text-shadow: 1px 1px 2px#00ccff,0 0 0.2em #00ccff;
+}
+#urus{
+    font-family: monospace;
+}
+.urus {
     font-family: "Tourney";
 }
-.urus1{
-    text-align: "";
-}
-.urus2{
-    clip-path: polygon(48% 0, 100% 0, 100% 100%, 0% 100%);
-}
-.urus3{
-    clip-path: polygon(23% 0, 100% 0%,76% 90%,0 89%);
-}
-.urus4{
-    clip-path: polygon(24% 0, 100% 0%, 100% 90%, 0 89%);
-}
-.urus5{
-    clip-path: polygon(0 0, 100% 0%, 70% 84%,0 84%);
 
-}
-.urusfont{
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:30rem;
-}
-.urusmodels{
+.urus1 {
     text-align: "";
 }
-.urus video{
+.uruslogo{
+    display:flex;
+    float: left;
+    height: 10%;
+}
+
+.urus22 {
+    clip-path: polygon(22% 0, 100% 0%, 100% 100%, 0% 100%);
+    float: right;
+}
+
+.one{
+    text-align:left;
+    font-family:'Poppins';
+    margin-left:20px;
+    font-size: calc(14px +(26-14)*((100vw - 300px)/(1600-300)));
+    height: 50%;
+    width: 25%;
+    text-align: left;
+}
+@media screen and (max-width:600px) {
+.one{
+    text-align: left;
+    font-family:'Poppins';
+    margin-left:20px;
+    font-size: 0.6rem;
+    width: 100%;
+}
+}
+.dot1{
+    color: white;
+}
+.urus3 {
+    clip-path: polygon(22% 0, 100% 0%, 80% 100%, 0% 100%);
+    float: left;
+}
+
+.urus4 {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 1% 100%);
+    float: right;
+    padding-left: 9px;
+}
+.urus5 {
+    clip-path: polygon(0 7%, 100% 7%, 75% 100%, 0% 100%);
+    float: left;
+    margin-left: -10%;
+}
+.two{
+    font-family:'Poppins';
+    display:"";
+    text-align:right;
+    font-size: calc(14px +(26-14)*((100vw - 300px) / (1600 - 300)));
+    width: 25%;
+    float: right;
+}
+.menu-1{
+    background-color: #000000;
+}
+@media screen and (max-width:600px) {
+    .two{
+        display:"";
+        text-align:right;
+        float: right;
+        font-family:'Poppins';
+        font-size:0.5em;
+        width: 100%;
+    }
+    }
+.dot{
+    color: aliceblue;
+}
+.slider1{
+    margin-left:auto;
+    margin-right: auto;
+}
+.urusfont {
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: 5rem;
+}
+
+.urusmodels {
     text-align: "";
 }
-.countach video{
+
+.urus video {
     text-align: "";
 }
-.countach1{
+
+.countach video {
     text-align: "";
 }
-.text1{
-    position: relative;
-    bottom:90%;
-    left: 40%;
-    font-family:"Tourney";
+.text1 {
+    text-shadow: 1px 1px 2px#ff6ef3,0 0 0.2em #ff00d4;
+   text-align: center;
+    font-family: "Tourney";
 }
-.lambo01{
- text-align: "";
+.text-1{
+    text-shadow: 1px 1px 2px#ff6e8d,0 0 0.2em #ff00d4;
+    text-align: center;
+    font-family: "Tourney";
 }
-.lambo{
-    clip-path: polygon(0 0, 100% 0%,62% 88%, 0 87%);
+.huracantext1{
+    text-shadow: 1px 1px 2px#00d9ff,0 0 0.2em #00e1ff;
+   text-align: center;
+    font-family: "Tourney";
 }
-.lambo1{
+.lambo01 {
+    text-align: "";
+}
+
+.lambo {
+    clip-path: polygon(0 0, 100% 0%, 62% 88%, 0 87%);
+}
+
+.lambo1 {
     clip-path: polygon(44% 0, 100% 0%, 100% 85%, 0 85%);
+    float: right;
 }
-.lambo2{
-    clip-path: polygon(0 14%, 100% 14%, 61% 100%, 0% 100%);
-}
-.lambo3{
-    clip-path: polygon(29% 21%, 100% 21%, 72% 100%, 0% 100%);
-}
-.lambo6{
-    clip-path: polygon(0 0, 100% 0%, 68% 77%, 0 77%);
 
+.lambo2 {
+    clip-path: polygon(0 0, 100% 0%, 72% 100%, 0 100%);
 }
-.countachvid2{
-   text-align: "";
+
+.lambo3 {
+    clip-path: polygon(18% 0%, 100% 0%, 100% 86%, 0% 86%);
+    float: right;
 }
-.countach video{
-  text-align: "";
+.rambo2{
+    text-align: left;
+    float: left;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    width:25%;
+}
+@media screen and (max-width:600px) {
+.rambo2{
+    text-align:left;
+    float: left;
+    font-family:'Poppins';
+    font-size: 0.5rem;
+    width:100%;
+    margin-top:"";
+
+}    
+}
+.lambo6 {
+    clip-path: polygon(0 0, 100% 0%, 68% 77%, 0 77%);
+}
+
+.countachvid2 {
+    text-align: "";
+}
+
+.countach video {
+    text-align: "";
+}
+
+.aventadorlogo {
+    float: left;
+}
+
+.aventadorimg1 {
+    float: right;
+    clip-path: polygon(61% 0, 100% 0, 100% 100%, 0% 100%)
+}
+
+.aventadorimg2 {
+    float: left;
+    clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 100%, 0 56%);
+}
+
+.aventadorimg3 {
+    float: right;
+    clip-path: polygon(100% 0%, 100% 48%, 80% 100%, 3% 100%, 16% 0%);
+}
+
+.aventadorimg4 {
+    clip-path: polygon(32% 3%, 100% 3%, 92% 91%, 0 91%, 0 33%);
+    float: right;
+}
+
+.aventadorimgv1 {
+    clip-path: polygon(32% 0, 100% 0, 100% 100%, 0 100%);
+    float: right;
+}
+
+.aventadorimgv2 {
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    float: left;
+}
+
+.huracanimg1 {
+    float: right;
+    clip-path: polygon(36% 0, 100% 0%, 100% 92%, 0 92%);
+}
+
+.huracanimg2 {
+    float: left;
+    clip-path: polygon(0 0, 100% 0%, 100% 0%, 80% 87%, 0 86%);
+}
+
+.huracanimg11 {
+    border-radius: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.huracanimg3 {
+    clip-path: polygon(0 0, 100% 0%, 100% 0%, 80% 87%, 0 86%);
+}
+
+.huracanimg4 {
+    clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
+    float: right;
+}
+
+.huracanimg5 {
+    clip-path: polygon(100% 0, 100% 47%, 89% 100%, 0 100%, 25% 0);
+    float: right;
+}
+
+.huracanimg6 {
+    clip-path: polygon(28% 0, 100% 0, 82% 100%, 0 100%, 0% 31%);
+    float: left;
+}
+
+.huracanimg7 {
+    clip-path: polygon(0 0, 100% 0%, 81% 78%, 0 78%);
+    float: left;
+    margin-left: 10px;
+}
+
+.huracanimg8 {
+    clip-path: polygon(100% 0, 100% 65%, 88% 100%, 0 100%, 16% 0);
+    float: right;
+}
+
+.huracanimg99 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.huracanicon {
+    width: 3%;
+    height: 3%;
+}
+
+.pentagon {
+    height: 10%;
+    width: 10%;
+}
+
+.aboutpage {
+    background-color: black;
+}
+
+.aboutpage1 {
+    color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.instagram {
+    transition: transform;
+    transform: scale(1.5);
+    height: 50px;
+    width: 50px;
+}
+
+.facebook {
+    height: 50px;
+    width: 50px;
+}
+
+.twitter {
+    height: 50px;
+    width: 50px;
+}
+
+.tiktok {
+    height: 50px;
+    width: 50px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.youtube {
+    height: 60px;
+    width: 60px;
+}
+
+.button {
+   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px ;
+  background-image: url(icons8-facebook.svg);
+}
+#count-el{
+    text-align: center;
+    color: antiquewhite;
+}
+.abouttext{
+    position: relative;
+    
+}
+.map{
+    height: 10%;
+    background-repeat: none;
+}
+.last{
+    background-image: url(wp3328592-world-map-black-wallpaper-hd.jpg);
+    font-weight: 600;
+    text-align: center;
+    color: gray;
+    font-family: 'Domine', serif;
+    font-size: 0.9rem ;
+}
+
+.listitem{
+    font-family: 'Domine', serif;
+}
+.insta{
+    height: 10%;
+    width: 4%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+.whatsapp{
+    height: 10%;
+    width: 4%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+.twitter{
+    height: 10%;
+    width: 4%;
+    margin-top: 3%;
+    margin-bottom:10%;
+    margin-left: 3%;
+}
+.nav-1{
+    background-color: #000000;
+}
+.fotter{
+    width: 100%;
+    height: 70em;
+    background-image: url(wp3328592-world-map-black-wallpaper-hd.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.fottermain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.fotter-img{
+    width: 35px;
+    height: 35px;
+    margin: 1em;
+}
+.fotter-para{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+.fotter-artcal{
+    width: 60%;
+    font-family:serif;
+    font-size: 0.9rem;
+    margin: auto;
+    color: #ebebeb;
+}
+@media screen and (max-width:540px) {
+    .fotter-artcal{
+        width: 90%;
+        font-family:serif;
+        font-size: 0.9rem;
+        margin: auto;
+}
 }

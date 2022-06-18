@@ -1,259 +1,682 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css">
-    </head>
-    <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-black">
-        <div class="container-fluid">
-          <div class="logo"><img src="5a3aa458ea5d74.801929801513792600968146 (1).png"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<head>
+    <title>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    
+</head>
+
+<body>
+    <nav id="lambonavbar" class="navbar navbar-expand-lg navbar">
+        <div class="container-fluid ">
+            <div class="logo w-25"><img src="5a3aa458ea5d74.801929801513792600968146 (1).png"></div>
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler btn btb-light;"type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarScroll" >
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" style="color: aliceblue;">Home</a>
+                <a class="nav-link active" aria-current="page" href="#urus">URUS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"style="color: aliceblue;">Link</a>
+                <a class="nav-link" href="#countach">COUNTACH</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aventador">AVAENTADOR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#huracan">HURACAN</a>
+              </li>
+              <div class="menuitem">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color: aliceblue;">
-                  Dropdown
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Models
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                <ul class="dropdown-menu bg-darck" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#urus">Lamborghini URUS</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#countach"></a>Lamborghini COUNTACH</li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#aventador">Lamborghini AVAENTADOR</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#huracan">Lamborghini HURACAN</a></li>
                 </ul>
               </li>
+              </div>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"style="color: aliceblue;">Disabled</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
               </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit"style="color: aliceblue;">Search</button>
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
-      <div class="overflow-scroll">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <video class="w-100" autoplay loop muted>
+               <source src="urusintrovid.mp4">
+           </video>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="um1">MODELS</h5>
+              <h1 class="um2">Lamborghini URUS</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video class="w-100
+            " autoplay loop muted>
+                <source src="lamborghinicontach1.mp4">
+            </video>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="cm1">MODELS</h5>
+              <h1 class="cm2">Lamborghini COUNTACH</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video class="w-100" autoplay loop muted>
+                <source src="videoplayback1.mp4">
+            </video>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="lm1">MODELS</h5>
+              <h1 class="lm2">Lamborghini AVAENTADOR</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video class="w-100" autoplay loop muted>
+                <source  src="videoplayback (5)1.mp4">
+            </video>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="hm1">MODELS</h5>
+              <h1 class="hm2">Lamborghini HURACAN</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="urus">
+        <div class="my-5">
+            <div class="urus1">
+                <img src="urus1.jpg" class="w-100 h-100">
+            </div>
+        </div>
+        <img class="uruslogo w-25" src="urus logo.png">
+         <img class="urus22 w-75" src="urus2.jpg">
+        <img class="urus3 w-50 my-5" src="urus3.jpg">
+        <img class="urus4 w-50 my-5" src="urus4.jpg">
+        <img class="urus5 w-75 col" src="urus5.jpg">
+        <div class="slider1">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="vid1">
-                <video class="-md-6-sm-6-ls-6-lx-6-xxl-6" autoplay loop muted>
-                <source class="w-100"src="videoplayback (1).mp4" type="video/mp4">
-                </video>
+                <div class="carousel-item active">
+                    <img src="urusmodel1.jpg" class="d-block w-75" alt="...">
                 </div>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Model</h5>
-                  <h1 class="urus">Lamborghini Urus</h1>
+                <div class="carousel-item">
+                    <img src="urusmodel2.jpg" class="d-block w-75" alt="...">
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="vid2">
-                <video class="  " autoplay loop muted>
-                <source class="w-100" src="videoplayback (2).mp4" type="video/mp4">
-                </video>
+                <div class="carousel-item">
+                    <img src="urusmodel3.jpg" class="d-block w-75" alt="...">
                 </div>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>model</h5>
-                  <h1 class="urus">Lamborghini Countach<h1>
+                <div class="carousel-item">
+                    <img src="urusmodel4.jpg" class="d-block w-75" alt="...">
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="vid3">
-                <video class="  " autoplay loop muted>
-                <source class="w-100" src="videoplayback.mp4" type="video/mp4">
-                </video>
+                <div class="carousel-item">
+                    <img src="urusmodel5.jpg" class="d-block w-75" alt="...">
                 </div>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>model</h5>
-                  <h1 class="urus">Lamborghini Aventador<h1>
+                <div class="carousel-item">
+                    <img src="urusmodel6.jpg" class="d-block w-75" alt="...">
                 </div>
-              </div>
+                <div class="carousel-item">
+                    <img src="urusmodel7.jpg" class="d-block w-75" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="urusmodel8.jpg" class="d-block w-75" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="urusmodel9.jpg" class="d-block w-75" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="urusmodel10.jpg" class="d-block w-75" alt="...">
+                </div>
             </div>
-          </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">preview</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <spna class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <div class="">
-          <div class="my-5">
-          <div class="urus1" >
-            <img src="urus1.jpg" class="w-100 h-100">          
-          </div>
-          </div>
-            <div class="uruslogo">
-              <div class="row">
-              <div class="col-md-6 col-sm-6 my-3">        
-              <img src="urus logo.png" class="w-50">
-              </div>
-              <h1>overviwe</h1>
-              <div class="urusfont">
-                <p>
-                The soul of a super sports car and the functionality of an SUV
-                <p>
-                : Lamborghini Urus is the first Super Sport Utility Vehicle in the world.
-                <p>
-                 With extreme proportions, breathtaking design, extraordinary driving
-                 <p>
-                  dynamics and heart-pounding performance, Urus represents freedom in 
-                  <p>
-                  its quintessential state. You can experience any road, from track to the 
-                  <p>
-                  sand, ice, gravel or rocks, thus unlocking any road. You can explore any new 
-                  <p>
-                  terrain, thus expressing yourself.</p>
-              </div>
-          </div>
-          <div class="urus2">
-            <div class="">
-            <img class="w-100" src="urus2.jpg">
-            </div>
-          </div>                                                                        
-            </div>
-            <div class="">
-          <div class="">
-
-           <div class="row">
-             <div class="col-md-12 col-sm-12 ">
-               <img class="urus3 w-50"src="urus3.jpg" >
-             </div>
-             </div>
-             </div>
-             <div class="">
-             <div class="">
-               <div class="w-25">
-               <img class="urus4 w-100" src="urus4.jpg">
-               </div>
-             </div>
-           </div>
-         </div>
-          </div>
-          <div class="">
-           <img class="urus5 w-100" src="urus5.jpg">
-         </div>
-         <div class="urusmodels">
-         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="urusmodel1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="urusmodel2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="urusmodel3.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="urusmodel4.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="urusmodel5.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="urusmodel6.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img class="  " src="urusmodel7.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img class="  " src="urusmodel8.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img class="  " src="urusmodel9.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img class="  " src="urusmodel10.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          </div>
-         </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <div class="">
-        <div class="">
-        <div class="urus video">
-          <video class="video-fluid" autoplay loop muted>
+        </div>
+       <!--<table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scpop="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">boot Space</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+        </table>-->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col">Specification of Lamborghini Urus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">*</th>
+              <td>Fuel Type</td>
+              <td>Petrol</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Engine Displacement</td>
+              <td>3996(cc)</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Max Power(bhp@rpm)</td>
+              <td>641.00bhp@6000rpm</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>max Torque(nm@rpm)</td>
+              <td>850nm@2250-4500rpm</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>No of cylinder</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Drive Train</td>
+              <td>AMD</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Acceleration 0to100</td>
+              <td>3.6s</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Engine Displacement</td>
+              <td>3996(cc)</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Top speed</td>
+              <td>325km</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Boot Space</td>
+              <td>616(Litres)</td>
+            </tr><tr>
+              <th scope="row">*</th>
+              <td>Transmission type</td>
+              <td>Automatic</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Fule Tank Capacity</td>
+              <td>75.0</td>
+            </tr><tr>
+              <th scope="row">*</th>
+              <td>Horsepower</td>
+              <td>(641hp,650ps)</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Seats</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="urus video my-5">
+            <video class="video-fluid w-100" autoplay loop muted>
           <source src="urus vid 2.mp4" type="video/mp4">
           </video>
-         </div>
         </div>
+      </div>
+     <div id="countach">
+        <div class="text1">
+          <h1>Lamborghini countach</h1>
+      </div>
+        <div class="countach1 ">
+            <div class="lambo01 w-100">
+                <img src="countach 1.jpg" class="img-fluid" my-10>
+            </div>  
         </div>
-        <div class="">
-        <div class="">
-         <div class="countach video">
-            <video class="video-fluid" autoplay loop muted>
+        <div class="countach video">
+            <video class="video-fluid w-100" autoplay loop muted>
             <source src="countach vid1.mp4" type="video/mp4">
             </video>
-         </div>
         </div>
-        </div>
-        <div class="">
-        <div class="">
-            <div class="countach1">
-              <div class="lambo01">
-              <img src="countach 1.jpg" class="img-fluid" my-10>
-              <div class="text1"><h1>Lamborghini countach</h1></div>
-              </div>
-            </div>
-         </div>
-        </div>
-        <div class="">
-           <div class="">
-              <div class="lambo">
-                <img src="countach 2.jpg" class="img-fluid"> 
-              </div>
-            </div>
-            <div class=" ">
-              <div class="lambo1">
-                <img src="countach 3.jpg" class="img-fluid">
-              </div>
-            </div>
-            <div class=" ">
-              <div class="row">
-                <div class="col-sm">
-                  <img class="lambo2" src="countach 4.jpg">
-                </div>
-                <div class="col sm">
-                  <img class="lambo3" src="countach 5.jpg">
-                </div>
-              </div>
-            </div>
-            </div>
-            <div class="overflow-scroll">
-            <div class=" ">
-              <img class="lambo6"src="countach 6.jpg">
-            </div>
+          <img src="countach 2.jpg" class="lambo w-75">
+                <!--<ul class="rambo card w-25 list-unstyled "> 
+                  <li>Fifty year since its unveiling at the Geneva Motar</li>
+                  <li>Show,the legendary Lamborghini countach is</li>
+                   <li>making headlines again with a limited-series</li>
+                  <li>hybrid supercar celebrating the visionary design</li>
+                   <li>that revolutionized modern sports car forever
+                        and laid the foundations of the Lamborghini
+                        legacy.this is the new Countach LPI 800-4.
+                        inspired by the past,made for the future</li>
+                </ul>-->
+            <img  class="lambo1 w-50 b-5" src="countach 3.jpg">
+            <img class="lambo2 w-50" src="countach 4.jpg">
+           
+            <!--<ul class="rambo2 list-unstyled my-5 ml-3 col-3">
+              <li>The low, geometric cabin of the Countach LPI 800
+                  4-complements the lines of the exterior,
+                  expressing a new design that amplifile the
+                  sensation of being in a car from the future.An
+                  exclusive range pf single-color,tow-colorand
+                  carbon fiber trims preserve the elemental yet
+                  unconventional style of timeless classic.The
+                 car's unique style speaks to you from every angle
+                 and combines beautifully with luxury italian craft
+                smanship and cutting-edge technology.</li>
+            </ul>-->
+            <img class="lambo3 w-75 col-" src="countach 5.jpg">
+            <img class="lambo6 w-75 " src="countach 6.jpg">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col">Specification of Lamborghini Countach</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Fuel Type</td>
+                  <td>Petrol</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Engine Displacement</td>
+                  <td>6,498cm(396 cu in)</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Max Power(bhp@rpm)</td>
+                  <td>814 CV (599 kw) @8,500rpm</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>max Torque(nm@rpm)</td>
+                  <td>720Nm @6,750</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>No of cylinder</td>
+                  <td>V12,60 ,MPI(Multi Point Injection)</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Supercapacitor Tension Supply</td>
+                  <td>48V</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Acceleration 0to100</td>
+                  <td>2.8s</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Lubrification system</td>
+                  <td>Dry sum</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Top speed</td>
+                  <td>355km/h</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Light</td>
+                  <td>4,870mm</td>
+                </tr><tr>
+                  <th scope="row">*</th>
+                  <td>Transmission type</td>
+                  <td>Automatic</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Doors</td>
+                  <td>scissor doors</td>
+                </tr><tr>
+                  <th scope="row">*</th>
+                  <td>Horsepower</td>
+                  <td>(802hp)</td>
+                </tr>
+                <tr>
+                  <th scope="row">*</th>
+                  <td>Seats</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
             <div class="countachvid2">
-              <video class="video-fluid" autoplay loop muted>
-                <source class="  " src="countach vid 2.mp4" type="video/mp4">
+                <video class="video-fluid w-100" autoplay loop muted>
+                <source src="countach vid 2.mp4" type="video/mp4">
               </video>
             </div>
+        </div>
+    </div>
+    <div class="text-1">
+      <h1>Lamborghini Aventador</h1>
+    </div>
+      <div id="aventador">
+        <img class="aventadormain w-100 my-5" src="aventadorimgmain.jpg">
+
+        <div class="aventadorvid1">
+            <video class="video-fuild w-100" autoplay loop muted>
+                <source src="aventador1.mp4" type="video/mp4">
+              </video>
+        </div>
+        <img class="aventadorlogo w-25 my-5" src="aventador_logo.png">
+        <img class="aventadorimgv1 w-50 my-5" src="aventadorimgv1.jpg">
+        <img class="aventadorimgv2 w-50 m-4" src="aventadorimgv2.jpg">
+        <img class="aventadorimg1 w-75" src="aventadorimg1.jpg">
+
+        <img class="aventadorimg2 w-50 my-3" src="aventadorimg3.jpg">
+        <img class="aventadorimg3 w-50 my-5" src="aventadorimg2.jpg">
+        <img class="aventadorimg4 w-50 my-5" src="aventadorimg4.jpg">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Aventadormodel1.png" class="d-block w-50" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Aventadormodel2.png" class="d-block w-50" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Aventadormodel3.png" class="d-block w-50" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Aventadormodel4.png" class="d-block w-50" alt="...">
+                </div>
             </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.2/umd/popper.min.js"></script>
-        <script src="./bootstrap/dist/js/bootstrap.js"></script>
-        <script src="index.js "></script>
-    </body>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col">Specification of Lamborghini Aventador</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">*</th>
+              <td>Fuel Type</td>
+              <td>Petrol</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Engine Displacement</td>
+              <td>6498(cc)</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Max Power(bhp@rpm)</td>
+              <td>759.01bhp@8500rpm</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>max Torque(nm@rpm)</td>
+              <td>720Nm@6750rpm</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>No of cylinder</td>
+              <td>V12,60,MPI</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Drive Train</td>
+              <td>AMD</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Acceleration 0to100</td>
+              <td>2.8s</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Doors</td>
+              <td>scissor doors</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Top speed</td>
+              <td>350km</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Gear Box</td>
+              <td> 7 speed</td>
+            </tr><tr>
+              <th scope="row">*</th>
+              <td>Transmission type</td>
+              <td>Automatic</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Drive Type</td>
+              <td>AMD</td>
+            </tr><tr>
+              <th scope="row">*</th>
+              <td>Fuel  Tank Capacity</td>
+              <td>90.0</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Seats</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="Aventadorvid2">
+            <video class="video-fuild w-100 my-5" autoplay loop muted>
+              <source src="aventador2.mp4" type="video/mp4">
+            </video>
+        </div>
+      </div>
+      <div id="huracan">
+        <div class="huracantext1">
+          <h1>Lamborghini huracan</h1>
+        </div>
+        <img class="huracanimgv1 w-100" src="lamborghini huracanimg1.jpg">
+        <div class="huracanvid1">
+            <video class="video-fuild w-100 my-4" autoplay loop muted>
+              <source src="huracan vid1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <img class="huracanimg1 w-75" src="lamborghini huracanimg2.jpg">
+        <img class="huracanimg2 w-75 my-4" src="lamborghini huracanimg3.jpg">
+        <img class="huracanimg99 w-75" src="lamborghini huracanimg12.jpg">
+        <img class="huracanimg11 w-75" src="lamborghini huracanimg11.png">
+        <img class="huracanimg3 w-75" src="lamborghini huracanimg4.jpg">
+        <img class="huracanimg4 w-75" src="lamborghini huracanimg5.jpg">
+        <img class="huracanimg5 w-50 my-3" src="lamborghini huracanimg7.jpg">
+        <img class="huracanimg6 w-50 my-3" src="lamborghini huracanimg6.jpg">
+        <img class="huracanimg7 w-50 my-5" src="lamborghini huracanimg8.jpg">
+        <img class="huracanimg8 w-50 my-" src="lamborghini huracanimg10.jpg">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col">Specification of Lamborghini Huracan EVO</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">*</th>
+              <td>Fuel Type</td>
+              <td>Petrol</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Engine Displacement</td>
+              <td>5204(cc)</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Max Power(bhp@rpm)</td>
+              <td>630.bhp@8500rpm</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>max Torque(nm@rpm)</td>
+              <td>565Nm@6750rpm</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>No of cylinder</td>
+              <td>V10,</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Acceleration 0to100</td>
+              <td>3.s</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Doors</td>
+              <td>scissor doors</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Top speed</td>
+              <td>310km</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Gear Box</td>
+              <td> 7 speed</td>
+            </tr><tr>
+              <th scope="row">*</th>
+              <td>Transmission type</td>
+              <td>Automatic</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Drive Type</td>
+              <td>RWD</td>
+            </tr><tr>
+              <th scope="row">*</th>
+              <td>Fuel  Tank Capacity</td>
+              <td>80.0</td>
+            </tr>
+            <tr>
+              <th scope="row">*</th>
+              <td>Seats</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+        </table>
+        <img class="huracanimg9 w-100" src="lamborghini huracanimg13.jpg">
+      </div>
+      <div class="fotter">
+        <div class="fotter-para">
+          <div class="fotter-artcal">
+            <p >The consumption and emissions values in the refer to your
+              geographival IP.This value might be unrealistic ifyou navigate using VPN or if
+              the position of your internet provider is imprexise if you believe you are
+              emissions information in your area.
+              
+          </div>
+        </div>
+        <div class="fottermain">
+          <a class="fotter-a"href="https://www.instagram.com/lamborghini/?hl=en"><img class="fotter-img" src="icons8-instagram.svg"></a>
+                      <a class="fotter-a"href=""><img class="fotter-img" src="icons8-whatsapp.svg"></a>
+                      <a class="fotter-a"href="https://twitter.com/lamborghini"><img class="fotter-img" src="icons8-twitter.svg"></a>
+                      <a class="fotter-a"href="https://www.facebook.com/lamboaustintx/"><img class="fotter-img" src="icons8-facebook.svg"></a>
+                      <a class="fotter-a"href=""><img class="fotter-img" src="icons8-github.svg"></a>
+        </div>
+      </div>
+                  <!--<div class="last container">
+                    <ul class="listiteam list-unstyled ">
+                      <li>The consumption and emissions values in the refer to your</li>
+                      <li>geographival IP.This value might be unrealistic if
+                         you navigate using VPN or if</li>
+                      <li>the position of your internet provider is imprexise if 
+                        you believe you are</li>
+                      <li>emissions information in your area.</li>
+                    </ul>
+                      
+                  </div>-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.2/umd/popper.min.js"></script>
+            <script src="./bootstrap/dist/js/bootstrap.js"></script>
+            <script src="index.js"></script>
+</body>
 </html>
